@@ -1,4 +1,4 @@
-/* Estilo geral */
+/* ESTILOS GLOBAIS */
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +48,7 @@ form .btn-enviar input:hover {
   transform: scale(1.05);
 }
 
-/* Estilo cabeçalho */
+/* ESTILO DO CABEÇALHO */
 
 .logo img {
   width: 72px;
@@ -86,7 +86,7 @@ header nav ul li {
   padding: 0 40px;
 }
 
-/* Estilo do topo do site */
+/* ESTILO DO TOPO DO SITE */
 
 section.topo-do-site {
   padding: 40px 4%;
@@ -123,6 +123,7 @@ section.topo-do-site .flex {
   border-radius: 30px;
 }
 
+/* CRIADO UM EFEITO QUE FAZ A IMAGEM FICAR FLUTUANDO */
 .topo-do-site .img-topo-site img {
   position: relative;
   animation: flutuar 2s ease-in-out infinite alternate;
@@ -137,7 +138,7 @@ section.topo-do-site .flex {
   }
 }
 
-/* Estilo Sobre */
+/* ESTILO FORMAÇAO */
 
 .img-sobre img {
   width: 420px;
@@ -173,7 +174,7 @@ section.sobre .flex {
   text-align: justify;
 }
 
-/* Estilo Portifólio */
+/* ESTILO DO PORTIFOLIO */
 
 section.portifolio {
   padding: 80px;
@@ -184,6 +185,7 @@ section.portifolio .flex {
   justify-content: space-around;
   margin-top: 60px;
 }
+
 
 .img-port {
   width: 360px;
@@ -200,6 +202,7 @@ section.portifolio .flex {
   background-position: 100% 100%;
 }
 
+/* CRIADO ESTILO PARA QUE A IMAGEM AO PASSAR O CURSOR ESCUREÇA E MOSTRE O NOME DO PROJETO */
 .overlay {
   position: absolute;
   top: 0;
@@ -269,7 +272,7 @@ form .btn-enviar input {
   transition: 0.2s;
 }
 
-/* Estilo Rodapé */
+/* ESTILO DO RODAPÉ */
 
 .logo-footer img {
   width: 50px;
@@ -331,6 +334,7 @@ footer .line-footer a {
   font-size: 12px;
 }
 
+/* ESTILO DO VOLTAR AO TOPO */
 #voltar-topo {
   color: #fff;
   font-size: 12px;
