@@ -95,7 +95,7 @@ section.topo-do-site {
 section.topo-do-site .flex {
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
   gap: 100px;
 }
 
@@ -329,4 +329,18 @@ footer .line-footer a {
 .direitos {
   color: #fff;
   font-size: 12px;
+}
+
+#voltar-topo {
+  color: #fff;
+  font-size: 12px;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+#voltar-topo:hover {
+  color: #2277df;
 }
